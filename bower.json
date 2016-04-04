@@ -1,0 +1,27 @@
+{
+  "name": "learning-js",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Dekai Zhang <dekai.zhang@mastercard.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "c3-angular": "^1.0.1",
+    "angular-material": "^1.0.6",
+    "angular-gettext": "^2.2.1"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}

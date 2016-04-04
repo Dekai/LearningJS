@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_CO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: index.html:73
+msgid "Add Cost"
+msgstr "Fecha de costos"
+
+#: index.html:81
+msgid "C3 Report"
+msgstr "C3 Informe"
+
+#: lib/c3Report/c3report.tpl.html:26
+msgid "Category Chart"
+msgstr "Tabla de categoría de"
+
+#: lib/addCost/add.cost.tpl.html:22
+msgid "Cost Amount"
+msgstr "Coste (amount)."
+
+#: lib/addCost/add.cost.tpl.html:11
+msgid "Cost Date"
+msgstr "Fecha de costos"
+
+#: lib/addCost/add.cost.tpl.html:17
+msgid "Cost Name"
+msgstr "Nombre coste"
+
+#: index.html:77
+msgid "Cost Report"
+msgstr "Reportes de los costos"
+
+#: lib/addCost/add.cost.tpl.html:3
+msgid "Cost Type"
+msgstr "El tipo de costo"
+
+#: index.html:85
+msgid "D3 Report"
+msgstr "Reportes de los costos"
+
+#: index.html:61
+msgid "Dekai -- Learning Angular JS"
+msgstr "Dekai - AngularJS Aprendizaje"
+
+#: index.html:69
+msgid "My Dashboard"
+msgstr "Mi tablero"
+
+#~ msgid ""
+#~ "Category Chart\n"
+#~ "  <div id=\"categoryChart\">\n"
+#~ "\n"
+#~ "  </div>"
+#~ msgstr ""
+#~ "Tabla de Categoría\n"
+#~ "  <div id=\"categoryChart\">\n"
+#~ "\n"
+#~ "  </div>"

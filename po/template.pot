@@ -1,0 +1,49 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+
+#: index.html:73
+msgid "Add Cost"
+msgstr ""
+
+#: index.html:81
+msgid "C3 Report"
+msgstr ""
+
+#: lib/c3Report/c3report.tpl.html:26
+msgid "Category Chart"
+msgstr ""
+
+#: lib/addCost/add.cost.tpl.html:22
+msgid "Cost Amount"
+msgstr ""
+
+#: lib/addCost/add.cost.tpl.html:11
+msgid "Cost Date"
+msgstr ""
+
+#: lib/addCost/add.cost.tpl.html:17
+msgid "Cost Name"
+msgstr ""
+
+#: index.html:77
+msgid "Cost Report"
+msgstr ""
+
+#: lib/addCost/add.cost.tpl.html:3
+msgid "Cost Type"
+msgstr ""
+
+#: index.html:85
+msgid "D3 Report"
+msgstr ""
+
+#: index.html:61
+msgid "Dekai -- Learning Angular JS"
+msgstr ""
+
+#: index.html:69
+msgid "My Dashboard"
+msgstr ""

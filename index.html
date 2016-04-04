@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <link href="bower_components/c3/c3.css" rel="stylesheet" type="text/css" />
+  <link href="bower_components/angular-material/angular-material.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/d3/d3.js"></script>
+  <script src="bower_components/c3/c3.js"></script>
+  <script src="bower_components/c3-angular/c3-angular.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="/bower_components/angular-aria/angular-aria.js"></script>
+  <script src="/bower_components/angular-animate/angular-animate.js"></script>
+  <script src="/bower_components/angular-material/angular-material.js"></script>
+  <script src="/bower_components/angular-gettext/dist/angular-gettext.min.js"></script>
+  <style>
+    .bar {
+      fill: steelblue;
+    }
+
+    .bar:hover {
+      fill: brown;
+    }
+
+    .axis {
+      font: 10px sans-serif;
+    }
+
+    .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    .x.axis path {
+      display: block;
+    }
+
+    #lineChart .axis path,
+    .axis line {
+      fill: none;
+      stroke: #000;
+      shape-rendering: crispEdges;
+    }
+
+    #lineChart .x.axis path {
+      display: none;
+    }
+
+    #lineChart .line {
+      fill: none;
+      stroke: steelblue;
+      stroke-width: 1.5px;
+    }
+  </style>
+</head>
+
+<body ng-app="dkApp" layout="column">
+  <md-toolbar layout="row">
+    <h1 class="md-toolbar-tools" layout-align-gt-sm="center" style="align-items: center;" translate>Dekai -- Learning Angular JS</h1>
+    	<select ng-model="languages.current" ng-options="key as value for (key, value) in languages.available"></select>
+  </md-toolbar>
+  <div flex layout="row">
+    <md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
+      <md-content>
+        <md-list-item ng-href="#/dashboard">
+          <md-icon>dashboard</md-icon>
+          <p translate>My Dashboard</p>
+        </md-list-item>
+        <md-list-item ng-href="#/add_cost">
+          <md-icon>library_add</md-icon>
+          <p translate>Add Cost</p>
+        </md-list-item>
+        <md-list-item ng-href="#/report">
+          <md-icon>assessment</md-icon>
+          <p translate>Cost Report</p>
+        </md-list-item>
+        <md-list-item ng-href="#/c3Report">
+          <md-icon>assessment</md-icon>
+          <p translate>C3 Report</p>
+        </md-list-item>
+        <md-list-item ng-href="#/d3Report">
+          <md-icon>assessment</md-icon>
+          <p translate>D3 Report</p>
+        </md-list-item>
+      </md-content>
+    </md-sidenav>
+
+    <md-content ui-view flex id="content"></md-content>
+  </div>
+
+  <script src="lib/app.js"></script>
+  <script src="lib/dashboard/dashboard.js"></script>
+  <script src="lib/report/report.js"></script>
+  <script src="lib/c3report/c3report.js"></script>
+  <script src="lib/d3report/d3report.js"></script>
+  <script src="lib/addCost/add.cost.js"></script>
+  <script src="lib/utils/c3.overrides.js"></script>
+  <script src="lib/translations.js"></script>
+</body>
+</body>
+
+</html>

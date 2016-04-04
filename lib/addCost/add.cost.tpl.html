@@ -1,0 +1,25 @@
+<p>
+  <md-input-container>
+    <label translate>Cost Type</label>
+    <md-icon>list</md-icon>
+    <md-select ng-model="addCostCtrl.costType">
+      <md-option ng-repeat="typeIt in addCostCtrl.costTypes" value="{{typeIt}}">
+        {{typeIt}}
+      </md-option>
+    </md-select>
+  </md-input-container>
+  <md-datepicker ng-model="addCostCtrl.costDate" md-placeholder="{{'Cost Date'|translate}}">
+  </md-datepicker>
+</p>
+
+<md-input-container class="md-icon-float md-block">
+  <!-- Use floating label instead of placeholder -->
+  <label translate>Cost Name</label>
+  <md-icon>poll</md-icon>
+  <input ng-model="addCostCtrl.costName" type="text">
+</md-input-container>
+<md-input-container md-no-float class="md-block">
+  <label translate>Cost Amount</label>
+  <md-icon>attach_money</md-icon>
+  <input ng-model="addCostCtrl.costAmount" type="text">
+</md-input-container>
