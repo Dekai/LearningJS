@@ -16,6 +16,10 @@ msgstr ""
 msgid "Category Chart"
 msgstr ""
 
+#: lib/addCost/add.cost.js:28
+msgid "Child Care"
+msgstr ""
+
 #: lib/addCost/add.cost.tpl.html:22
 msgid "Cost Amount"
 msgstr ""
@@ -44,6 +48,18 @@ msgstr ""
 msgid "Dekai -- Learning Angular JS"
 msgstr ""
 
+#: lib/addCost/add.cost.js:27
+msgid "House Rent"
+msgstr ""
+
 #: index.html:69
 msgid "My Dashboard"
+msgstr ""
+
+#: lib/addCost/add.cost.js:29
+msgid "Phone Bill"
+msgstr ""
+
+#: lib/addCost/add.cost.js:30
+msgid "Super Market"
 msgstr ""

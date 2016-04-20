@@ -24,6 +24,10 @@ msgstr "C3 Informe"
 msgid "Category Chart"
 msgstr "Tabla de categoría de"
 
+#: lib/addCost/add.cost.js:28
+msgid "Child Care"
+msgstr "Cuidado infantil"
+
 #: lib/addCost/add.cost.tpl.html:22
 msgid "Cost Amount"
 msgstr "Coste (amount)."
@@ -52,9 +56,21 @@ msgstr "Reportes de los costos"
 msgid "Dekai -- Learning Angular JS"
 msgstr "Dekai - AngularJS Aprendizaje"
 
+#: lib/addCost/add.cost.js:27
+msgid "House Rent"
+msgstr "Casa en alquiler"
+
 #: index.html:69
 msgid "My Dashboard"
 msgstr "Mi tablero"
+
+#: lib/addCost/add.cost.js:29
+msgid "Phone Bill"
+msgstr "Factura de teléfono"
+
+#: lib/addCost/add.cost.js:30
+msgid "Super Market"
+msgstr "Supermercado"
 
 #~ msgid ""
 #~ "Category Chart\n"

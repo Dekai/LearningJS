@@ -4,7 +4,7 @@
     <md-icon>list</md-icon>
     <md-select ng-model="addCostCtrl.costType">
       <md-option ng-repeat="typeIt in addCostCtrl.costTypes" value="{{typeIt}}">
-        {{typeIt}}
+        {{translate(typeIt)}} -- {{typeIt|translate}}
       </md-option>
     </md-select>
   </md-input-container>
